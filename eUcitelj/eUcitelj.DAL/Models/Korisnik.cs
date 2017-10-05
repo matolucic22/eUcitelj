@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eUcitelj.DAL
+namespace eUcitelj.DAL.Models
 {
     public class Korisnik:IKorisnik
     {
