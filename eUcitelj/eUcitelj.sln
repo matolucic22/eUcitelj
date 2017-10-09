@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Model.Common", "eU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Model", "eUcitelj.Model\eUcitelj.Model.csproj", "{DB263ED4-896D-47C1-B10F-7DD87CF4B35E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Reporsitory.Common", "eUcitelj.Reporsitory.Common\eUcitelj.Reporsitory.Common.csproj", "{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Reporsitory", "eUcitelj.Reporsitory\eUcitelj.Reporsitory.csproj", "{C2A13CE9-3138-4340-9C58-89894AA645EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{DB263ED4-896D-47C1-B10F-7DD87CF4B35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB263ED4-896D-47C1-B10F-7DD87CF4B35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB263ED4-896D-47C1-B10F-7DD87CF4B35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
