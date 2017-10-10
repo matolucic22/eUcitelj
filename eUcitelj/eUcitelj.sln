@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Reporsitory.Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Reporsitory", "eUcitelj.Reporsitory\eUcitelj.Reporsitory.csproj", "{C2A13CE9-3138-4340-9C58-89894AA645EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Service.Common", "eUcitelj.Service.Common\eUcitelj.Service.Common.csproj", "{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Service", "eUcitelj.Service\eUcitelj.Service.csproj", "{92070A72-C7B8-445E-A03F-41275585A0F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A13CE9-3138-4340-9C58-89894AA645EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92070A72-C7B8-445E-A03F-41275585A0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92070A72-C7B8-445E-A03F-41275585A0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92070A72-C7B8-445E-A03F-41275585A0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92070A72-C7B8-445E-A03F-41275585A0F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
