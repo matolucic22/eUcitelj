@@ -1,5 +1,4 @@
 ﻿using eUcitelj.DAL.Common;
-using eUcitelj.DAL.Models;
 using eUcitelj.Model.Common;
 using System;
 using System.Collections.Generic;
@@ -24,5 +23,4 @@ namespace eUcitelj.Model
     }
 }
 
-    }
-}
+  

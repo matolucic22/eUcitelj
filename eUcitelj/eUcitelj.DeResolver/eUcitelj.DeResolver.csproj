@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61FB2348-4F47-4705-9DD2-0D453B670028}</ProjectGuid>
+    <ProjectGuid>{55471576-751E-4A40-8CEA-02976AA498D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eUcitelj.DAL.Common</RootNamespace>
-    <AssemblyName>eUcitelj.DAL.Common</AssemblyName>
+    <RootNamespace>eUcitelj.DeResolver</RootNamespace>
+    <AssemblyName>eUcitelj.DeResolver</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -58,16 +58,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IeUciteljContext.cs" />
-    <Compile Include="IKorisnik.cs" />
-    <Compile Include="IKviz.cs" />
-    <Compile Include="IOcjene.cs" />
-    <Compile Include="IPredmeti.cs" />
+    <Compile Include="MappingConfig\MappingProfile.cs" />
+    <Compile Include="NinjectConfig\Resolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eUcitelj.DAL.Common\eUcitelj.DAL.Common.csproj">
+      <Project>{61FB2348-4F47-4705-9DD2-0D453B670028}</Project>
+      <Name>eUcitelj.DAL.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.DAL\eUcitelj.DAL.csproj">
+      <Project>{882A72A0-778C-439D-B70A-C4C0257C59A3}</Project>
+      <Name>eUcitelj.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Model.Common\eUcitelj.Model.Common.csproj">
+      <Project>{EF4CA9BF-D2D7-4259-964B-6C48B590A344}</Project>
+      <Name>eUcitelj.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Model\eUcitelj.Model.csproj">
+      <Project>{DB263ED4-896D-47C1-B10F-7DD87CF4B35E}</Project>
+      <Name>eUcitelj.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Reporsitory.Common\eUcitelj.Reporsitory.Common.csproj">
+      <Project>{FD3B09E3-85D3-4990-8ACC-3AB06EECBE80}</Project>
+      <Name>eUcitelj.Reporsitory.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Reporsitory\eUcitelj.Reporsitory.csproj">
+      <Project>{C2A13CE9-3138-4340-9C58-89894AA645EE}</Project>
+      <Name>eUcitelj.Reporsitory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Service.Common\eUcitelj.Service.Common.csproj">
+      <Project>{BB0B8ECE-0F0F-4F61-9079-BF481CA32DC2}</Project>
+      <Name>eUcitelj.Service.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUcitelj.Service\eUcitelj.Service.csproj">
+      <Project>{92070A72-C7B8-445E-A03F-41275585A0F3}</Project>
+      <Name>eUcitelj.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

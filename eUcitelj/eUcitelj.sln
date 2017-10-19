@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Service.Common", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.Service", "eUcitelj.Service\eUcitelj.Service.csproj", "{92070A72-C7B8-445E-A03F-41275585A0F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eUcitelj.DeResolver", "eUcitelj.DeResolver\eUcitelj.DeResolver.csproj", "{55471576-751E-4A40-8CEA-02976AA498D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{92070A72-C7B8-445E-A03F-41275585A0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92070A72-C7B8-445E-A03F-41275585A0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92070A72-C7B8-445E-A03F-41275585A0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55471576-751E-4A40-8CEA-02976AA498D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55471576-751E-4A40-8CEA-02976AA498D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55471576-751E-4A40-8CEA-02976AA498D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55471576-751E-4A40-8CEA-02976AA498D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

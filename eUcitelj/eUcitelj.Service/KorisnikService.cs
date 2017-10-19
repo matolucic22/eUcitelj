@@ -11,7 +11,7 @@ namespace eUcitelj.Service
     public class KorisnikService : IKorisnikService
     {
         protected IKorisnikGenericReporsitory KorisnikGenericReporsitory { set; get; }
-        KorisnikService(IKorisnikGenericReporsitory korisnikGenericReporsitory)
+        public KorisnikService(IKorisnikGenericReporsitory korisnikGenericReporsitory)
         {
             this.KorisnikGenericReporsitory = korisnikGenericReporsitory;
         }

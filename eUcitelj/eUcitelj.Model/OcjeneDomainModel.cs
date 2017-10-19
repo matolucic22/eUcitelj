@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eUcitelj.Model
 {
-    public class OcjeneDomanModel:IOcjeneDomainModel
+    public class OcjeneDomainModel:IOcjeneDomainModel
     {
         public Guid OcjeneId { get; set; }
         public Guid PredmetiId { get; set; }

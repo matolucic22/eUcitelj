@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace eUcitelj.Reporsitory
 {
-    public class OcjeneGenericReporsiory : IOcjeneGenericReporsitory
+    public class OcjeneGenericReporsitory : IOcjeneGenericReporsitory
     {
         protected IReporsitory Reporsitory { get; set; }
-        OcjeneGenericReporsiory(IReporsitory reporsitory)
+        OcjeneGenericReporsitory(IReporsitory reporsitory)
         {
             this.Reporsitory = reporsitory;
         }
